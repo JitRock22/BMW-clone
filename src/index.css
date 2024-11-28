@@ -24,7 +24,9 @@ html,body{
   width: 100%;
 }
 .main{
-  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 100;
 }
 .content{
@@ -33,4 +35,78 @@ html,body{
   height: 100%;
   top: 0;
 }
+/*For navigation bar*/
+.nv1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 250px ;
 
+}
+.nav li{
+  display: inline-block;
+  padding: 20px;
+  
+}
+.nav li a{
+  font-family: 'f1';
+}
+.nav li a:hover{
+  background-color: #1C69D4;
+  color: aliceblue;
+  border-radius: 100px;
+  padding: 20px;
+  transition-duration: 0.4s;
+    -webkit-text-stroke: 0.1px #000;
+}
+/*for middle text*/
+.m1{
+  height: 300px;
+  width: 800px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 220px;
+  color:white;
+}
+.m1 h1,h2{
+  font-family: 'f1';
+}
+ button:hover{
+  background-color: black;
+  color: white;
+  transition-duration: 0.5s;
+  border-color: black;
+}
+.m2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  overflow: hidden;
+  /* object-fit: cover; */
+
+}
+.m2 div{
+  height: 30vw;
+  width: 60vw;
+  margin: 10px;
+
+}
+.m2 div img{
+  width: 100%;
+  height: 100%;
+}
+.m3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.m3 div h1{
+  text-align: center;
+}
